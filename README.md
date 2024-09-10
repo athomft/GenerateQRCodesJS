@@ -45,14 +45,14 @@ This project generates QR codes for random 10-digit numbers and saves them to im
 ## Script Overview
 
 - Dependencies
-    - qrcode: Generates QR code images. 
-    - exceljs: Creates and writes to Excel files. 
-    - fs: File system module for file operations (included with Node.js). 
-    - readline: Provides an interface for reading input from the terminal (included with Node.js).
+    - `qrcode`: Generates QR code images. 
+    - `exceljs`: Creates and writes to Excel files. 
+    - `fs`: File system module for file operations (included with Node.js). 
+    - `readline`: Provides an interface for reading input from the terminal (included with Node.js).
 - Functions:
-    - generateRandom10Digit(): Generates a random 10-digit number. 
-    - generateQRCode(data, filename): Generates a QR code for the provided data and saves it to a file. 
-    - saveToExcel(numbers): Saves the list of generated numbers to an Excel file.
+    - `generateRandom10Digit()`: Generates a random 10-digit number. 
+    - `generateQRCode(data, filename)`: Generates a QR code for the provided data and saves it to a file. 
+    - `saveToExcel(numbers)`: Saves the list of generated numbers to an Excel file.
 
 ## Example
 
